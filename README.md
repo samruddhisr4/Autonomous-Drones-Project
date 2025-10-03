@@ -17,6 +17,7 @@ An advanced object detection system for autonomous drones that combines **YOLOv7
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 ```bash
 # Python 3.7+ required
 python --version
@@ -26,6 +27,7 @@ pip install -r requirements.txt
 ```
 
 ### Basic Usage
+
 ```bash
 # 1. Prepare data (if using VisDrone dataset)
 python src/data_processing/visdrone_converter.py --input_dir data/visdrone --output_dir data/yolo_format
@@ -42,12 +44,12 @@ python create_results_summary.py
 
 ## 📊 Performance Results
 
-| Metric | Achievement |
-|--------|-------------|
-| **False Positive Reduction** | **28-45%** |
-| **Processing Speed** | **5.6-6.9 FPS** |
-| **Filtering Overhead** | **<5ms per image** |
-| **Detection Accuracy** | **High precision maintained** |
+| Metric                       | Achievement                   |
+| ---------------------------- | ----------------------------- |
+| **False Positive Reduction** | **28-45%**                    |
+| **Processing Speed**         | **5.6-6.9 FPS**               |
+| **Filtering Overhead**       | **<5ms per image**            |
+| **Detection Accuracy**       | **High precision maintained** |
 
 ## 🏗️ System Architecture
 
@@ -69,10 +71,12 @@ python create_results_summary.py
 ## 🔬 Technical Innovation: Betti Number Filtering
 
 ### What are Betti Numbers?
+
 - **β₀ (Connected Components)**: Counts separate detection clusters
 - **β₁ (Holes/Loops)**: Identifies topological structures in detection patterns
 
 ### How it Works:
+
 1. **Spatial Clustering**: Group nearby detections using DBSCAN
 2. **Topological Analysis**: Calculate Betti numbers for each cluster
 3. **Intelligent Filtering**: Remove clusters with suspicious topological properties
@@ -102,13 +106,16 @@ AUTONOMOUS DRONES/
 ## 🎯 Results & Analysis
 
 ### Generated Analysis Files:
+
 - `detection_performance_summary.html` - Interactive performance dashboard
 - `performance_analysis_charts.png` - Key performance visualizations
 - `performance_comparison.csv` - Detailed metrics comparison
 - `FINAL_RESULTS_OVERVIEW.md` - Comprehensive results summary
 
 ### Visual Results:
+
 Check `results/quick_demo/` for:
+
 - Original vs filtered detection comparisons
 - Clustering visualizations
 - Side-by-side performance analysis
@@ -116,6 +123,7 @@ Check `results/quick_demo/` for:
 ## 🛠️ Advanced Usage
 
 ### Custom Training:
+
 ```bash
 # Full pipeline training
 python full_dataset_pipeline.py --mode train --epochs 100 --batch_size 16
@@ -125,7 +133,9 @@ python full_dataset_pipeline.py --mode evaluate --model path/to/model.pt
 ```
 
 ### Configuration:
+
 Edit `configs/training_config.yaml` for:
+
 - Model parameters
 - Augmentation settings
 - Betti filter configuration
@@ -133,11 +143,13 @@ Edit `configs/training_config.yaml` for:
 ## 📈 Performance Benchmarks
 
 ### Full Dataset (100 images):
+
 - **Baseline**: 1,051 detections → **Filtered**: 580 detections
 - **Reduction**: 44.8% false positives removed
 - **Speed**: 6.83 FPS → 6.89 FPS (improved!)
 
 ### Quick Test (50 images):
+
 - **Baseline**: 738 detections → **Filtered**: 531 detections
 - **Reduction**: 28.0% false positives removed
 - **Speed**: 5.60 FPS maintained
@@ -145,9 +157,10 @@ Edit `configs/training_config.yaml` for:
 ## 🎓 Applications
 
 This system is ideal for:
+
 - **Autonomous drone navigation**
 - **Security and surveillance**
-- **Search and rescue operations**  
+- **Search and rescue operations**
 - **Traffic monitoring**
 - **Environmental monitoring**
 
@@ -157,12 +170,13 @@ If you use this work in your research, please cite:
 
 ``bibtex
 @misc{autonomous_drone_detection_2024,
-  title={Autonomous Drone Detection with Topological Filtering},
-  author={Your Name},
-  year={2024},
-  howpublished={GitHub repository},
-  url={https://github.com/samruddhisr4/Autonomous-Drones-Project}
+title={Autonomous Drone Detection with Topological Filtering},
+author={Your Name},
+year={2024},
+howpublished={GitHub repository},
+url={https://github.com/samruddhisr4/Autonomous-Drones-Project}
 }
+
 ```
 
 ## 🤝 Contributing
@@ -187,3 +201,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **🚁 Ready to deploy intelligent drone detection? Get started with the quick start guide above!**
+```
