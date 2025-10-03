@@ -1,0 +1,494 @@
+{
+  "image_path": "data\\yolo_format\\val\\images\\0000001_05249_d_0000009.jpg",
+  "timing": {
+    "inference_time": 0.17840933799743652,
+    "filtering_time": 0.0057752132415771484,
+    "total_time": 0.20113110542297363
+  },
+  "stats": {
+    "original_count": 22,
+    "final_count": 19,
+    "filtered_count": 3
+  },
+  "detections": [
+    {
+      "bbox": [
+        1920,
+        1080,
+        1920,
+        1080
+      ],
+      "confidence": 0.8202018737792969,
+      "class_id": 2,
+      "class_name": "bicycle"
+    },
+    {
+      "bbox": [
+        1920,
+        1080,
+        1920,
+        1080
+      ],
+      "confidence": 0.7081606984138489,
+      "class_id": 2,
+      "class_name": "bicycle"
+    },
+    {
+      "bbox": [
+        1920,
+        1080,
+        1920,
+        1080
+      ],
+      "confidence": 0.546543300151825,
+      "class_id": 2,
+      "class_name": "bicycle"
+    },
+    {
+      "bbox": [
+        1920,
+        1080,
+        1920,
+        1080
+      ],
+      "confidence": 0.47666433453559875,
+      "class_id": 2,
+      "class_name": "bicycle"
+    },
+    {
+      "bbox": [
+        1920,
+        1080,
+        1920,
+        1080
+      ],
+      "confidence": 0.45240697264671326,
+      "class_id": 2,
+      "class_name": "bicycle"
+    },
+    {
+      "bbox": [
+        1920,
+        1080,
+        1920,
+        1080
+      ],
+      "confidence": 0.4322356879711151,
+      "class_id": 2,
+      "class_name": "bicycle"
+    },
+    {
+      "bbox": [
+        1920,
+        1080,
+        1920,
+        1080
+      ],
+      "confidence": 0.4105435013771057,
+      "class_id": 2,
+      "class_name": "bicycle"
+    },
+    {
+      "bbox": [
+        1920,
+        1080,
+        1920,
+        1080
+      ],
+      "confidence": 0.39693570137023926,
+      "class_id": 0,
+      "class_name": "pedestrian"
+    },
+    {
+      "bbox": [
+        1920,
+        1080,
+        1920,
+        1080
+      ],
+      "confidence": 0.31484198570251465,
+      "class_id": 2,
+      "class_name": "bicycle"
+    },
+    {
+      "bbox": [
+        1920,
+        "150.45424",
+        1920,
+        "307.3423"
+      ],
+      "confidence": 0.4236707389354706,
+      "class_id": 2,
+      "class_name": "bicycle"
+    },
+    {
+      "bbox": [
+        1920,
+        "144.1728",
+        1920,
+        "281.71326"
+      ],
+      "confidence": 0.37270429730415344,
+      "class_id": 2,
+      "class_name": "bicycle"
+    },
+    {
+      "bbox": [
+        1920,
+        "259.94333",
+        1920,
+        "407.48172"
+      ],
+      "confidence": 0.36812180280685425,
+      "class_id": 2,
+      "class_name": "bicycle"
+    },
+    {
+      "bbox": [
+        1920,
+        "187.44589",
+        1920,
+        "326.41318"
+      ],
+      "confidence": 0.3168652355670929,
+      "class_id": 2,
+      "class_name": "bicycle"
+    },
+    {
+      "bbox": [
+        1920,
+        "77.84024",
+        1920,
+        "202.67267"
+      ],
+      "confidence": 0.30880221724510193,
+      "class_id": 2,
+      "class_name": "bicycle"
+    },
+    {
+      "bbox": [
+        1920,
+        "19.864609",
+        1920,
+        "130.0204"
+      ],
+      "confidence": 0.25050559639930725,
+      "class_id": 2,
+      "class_name": "bicycle"
+    },
+    {
+      "bbox": [
+        1920,
+        "406.91135",
+        1920,
+        "561.2253"
+      ],
+      "confidence": 0.39089980721473694,
+      "class_id": 2,
+      "class_name": "bicycle"
+    },
+    {
+      "bbox": [
+        1920,
+        "418.42474",
+        1920,
+        "596.68365"
+      ],
+      "confidence": 0.3706783950328827,
+      "class_id": 2,
+      "class_name": "bicycle"
+    },
+    {
+      "bbox": [
+        1920,
+        "447.55573",
+        1920,
+        "633.49"
+      ],
+      "confidence": 0.26301151514053345,
+      "class_id": 2,
+      "class_name": "bicycle"
+    },
+    {
+      "bbox": [
+        "1811.9059",
+        "383.93005",
+        1920,
+        "525.5287"
+      ],
+      "confidence": 0.26051270961761475,
+      "class_id": 2,
+      "class_name": "bicycle"
+    }
+  ],
+  "filtering_info": {
+    "clusters": [
+      {
+        "label": 0,
+        "size": 9,
+        "topology_eval": {
+          "betti_numbers": {
+            "0": 1,
+            "1": 0,
+            "2": 0
+          },
+          "is_valid": "True",
+          "confidence_score": 0.5065037839942508,
+          "topology_score": 1.0,
+          "betti_0_valid": true,
+          "betti_1_valid": true
+        },
+        "detections": [
+          {
+            "bbox": [
+              1920,
+              1080,
+              1920,
+              1080
+            ],
+            "confidence": 0.8202018737792969,
+            "class_id": 2,
+            "class_name": "bicycle"
+          },
+          {
+            "bbox": [
+              1920,
+              1080,
+              1920,
+              1080
+            ],
+            "confidence": 0.7081606984138489,
+            "class_id": 2,
+            "class_name": "bicycle"
+          },
+          {
+            "bbox": [
+              1920,
+              1080,
+              1920,
+              1080
+            ],
+            "confidence": 0.546543300151825,
+            "class_id": 2,
+            "class_name": "bicycle"
+          },
+          {
+            "bbox": [
+              1920,
+              1080,
+              1920,
+              1080
+            ],
+            "confidence": 0.47666433453559875,
+            "class_id": 2,
+            "class_name": "bicycle"
+          },
+          {
+            "bbox": [
+              1920,
+              1080,
+              1920,
+              1080
+            ],
+            "confidence": 0.45240697264671326,
+            "class_id": 2,
+            "class_name": "bicycle"
+          },
+          {
+            "bbox": [
+              1920,
+              1080,
+              1920,
+              1080
+            ],
+            "confidence": 0.4322356879711151,
+            "class_id": 2,
+            "class_name": "bicycle"
+          },
+          {
+            "bbox": [
+              1920,
+              1080,
+              1920,
+              1080
+            ],
+            "confidence": 0.4105435013771057,
+            "class_id": 2,
+            "class_name": "bicycle"
+          },
+          {
+            "bbox": [
+              1920,
+              1080,
+              1920,
+              1080
+            ],
+            "confidence": 0.39693570137023926,
+            "class_id": 0,
+            "class_name": "pedestrian"
+          },
+          {
+            "bbox": [
+              1920,
+              1080,
+              1920,
+              1080
+            ],
+            "confidence": 0.31484198570251465,
+            "class_id": 2,
+            "class_name": "bicycle"
+          }
+        ]
+      },
+      {
+        "label": 1,
+        "size": 6,
+        "topology_eval": {
+          "betti_numbers": {
+            "0": 4,
+            "1": 0,
+            "2": 0
+          },
+          "is_valid": "True",
+          "confidence_score": 0.3401116480429967,
+          "topology_score": 1.0,
+          "betti_0_valid": true,
+          "betti_1_valid": true
+        },
+        "detections": [
+          {
+            "bbox": [
+              1920,
+              "150.45424",
+              1920,
+              "307.3423"
+            ],
+            "confidence": 0.4236707389354706,
+            "class_id": 2,
+            "class_name": "bicycle"
+          },
+          {
+            "bbox": [
+              1920,
+              "144.1728",
+              1920,
+              "281.71326"
+            ],
+            "confidence": 0.37270429730415344,
+            "class_id": 2,
+            "class_name": "bicycle"
+          },
+          {
+            "bbox": [
+              1920,
+              "259.94333",
+              1920,
+              "407.48172"
+            ],
+            "confidence": 0.36812180280685425,
+            "class_id": 2,
+            "class_name": "bicycle"
+          },
+          {
+            "bbox": [
+              1920,
+              "187.44589",
+              1920,
+              "326.41318"
+            ],
+            "confidence": 0.3168652355670929,
+            "class_id": 2,
+            "class_name": "bicycle"
+          },
+          {
+            "bbox": [
+              1920,
+              "77.84024",
+              1920,
+              "202.67267"
+            ],
+            "confidence": 0.30880221724510193,
+            "class_id": 2,
+            "class_name": "bicycle"
+          },
+          {
+            "bbox": [
+              1920,
+              "19.864609",
+              1920,
+              "130.0204"
+            ],
+            "confidence": 0.25050559639930725,
+            "class_id": 2,
+            "class_name": "bicycle"
+          }
+        ]
+      },
+      {
+        "label": 2,
+        "size": 4,
+        "topology_eval": {
+          "betti_numbers": {
+            "0": 2,
+            "1": 0,
+            "2": 0
+          },
+          "is_valid": "True",
+          "confidence_score": 0.32127560675144196,
+          "topology_score": 1.0,
+          "betti_0_valid": true,
+          "betti_1_valid": true
+        },
+        "detections": [
+          {
+            "bbox": [
+              1920,
+              "406.91135",
+              1920,
+              "561.2253"
+            ],
+            "confidence": 0.39089980721473694,
+            "class_id": 2,
+            "class_name": "bicycle"
+          },
+          {
+            "bbox": [
+              1920,
+              "418.42474",
+              1920,
+              "596.68365"
+            ],
+            "confidence": 0.3706783950328827,
+            "class_id": 2,
+            "class_name": "bicycle"
+          },
+          {
+            "bbox": [
+              1920,
+              "447.55573",
+              1920,
+              "633.49"
+            ],
+            "confidence": 0.26301151514053345,
+            "class_id": 2,
+            "class_name": "bicycle"
+          },
+          {
+            "bbox": [
+              "1811.9059",
+              "383.93005",
+              1920,
+              "525.5287"
+            ],
+            "confidence": 0.26051270961761475,
+            "class_id": 2,
+            "class_name": "bicycle"
+          }
+        ]
+      }
+    ],
+    "filtered_count": 3,
+    "original_count": 22,
+    "final_count": 19
+  }
+}

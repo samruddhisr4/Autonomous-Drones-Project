@@ -1,0 +1,32 @@
+{
+  "image_path": "data\\yolo_format\\val\\images\\0000001_03499_d_0000006.jpg",
+  "timing": {
+    "inference_time": 0.18630599975585938,
+    "filtering_time": 0.007028818130493164,
+    "total_time": 0.20986104011535645
+  },
+  "stats": {
+    "original_count": 4,
+    "final_count": 1,
+    "filtered_count": 3
+  },
+  "detections": [
+    {
+      "bbox": [
+        1920,
+        "642.3919",
+        1920,
+        "845.7104"
+      ],
+      "confidence": 0.7095404267311096,
+      "class_id": 2,
+      "class_name": "bicycle"
+    }
+  ],
+  "filtering_info": {
+    "clusters": [],
+    "filtered_count": 3,
+    "original_count": 4,
+    "final_count": 1
+  }
+}

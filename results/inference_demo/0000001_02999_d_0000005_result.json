@@ -1,0 +1,191 @@
+{
+  "image_path": "data\\yolo_format\\val\\images\\0000001_02999_d_0000005.jpg",
+  "original_detections": [
+    {
+      "bbox": [
+        "1329.4094",
+        1080,
+        "1507.0638",
+        1080
+      ],
+      "confidence": 0.5128126740455627,
+      "class_id": 2,
+      "class_name": "bicycle"
+    },
+    {
+      "bbox": [
+        1920,
+        "553.3231",
+        1920,
+        "711.6592"
+      ],
+      "confidence": 0.2911040186882019,
+      "class_id": 2,
+      "class_name": "bicycle"
+    },
+    {
+      "bbox": [
+        1920,
+        1080,
+        1920,
+        1080
+      ],
+      "confidence": 0.29080745577812195,
+      "class_id": 7,
+      "class_name": "awning-tricycle"
+    },
+    {
+      "bbox": [
+        1920,
+        "584.2152",
+        1920,
+        "809.2094"
+      ],
+      "confidence": 0.2815524637699127,
+      "class_id": 2,
+      "class_name": "bicycle"
+    },
+    {
+      "bbox": [
+        1920,
+        1080,
+        1920,
+        1080
+      ],
+      "confidence": 0.2772195041179657,
+      "class_id": 0,
+      "class_name": "pedestrian"
+    },
+    {
+      "bbox": [
+        1920,
+        1080,
+        1920,
+        1080
+      ],
+      "confidence": 0.2683308720588684,
+      "class_id": 5,
+      "class_name": "truck"
+    },
+    {
+      "bbox": [
+        "1850.2635",
+        "420.7629",
+        1920,
+        "635.79144"
+      ],
+      "confidence": 0.2535824179649353,
+      "class_id": 7,
+      "class_name": "awning-tricycle"
+    }
+  ],
+  "final_detections": [],
+  "filtering_info": {
+    "clusters": [
+      {
+        "label": 0,
+        "size": 2,
+        "topology_eval": {
+          "betti_numbers": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "is_valid": false,
+          "confidence_score": 0.2863282412290573,
+          "topology_score": 0.4,
+          "betti_0_valid": false,
+          "betti_1_valid": true
+        },
+        "detections": [
+          {
+            "bbox": [
+              1920,
+              "553.3231",
+              1920,
+              "711.6592"
+            ],
+            "confidence": 0.2911040186882019,
+            "class_id": 2,
+            "class_name": "bicycle"
+          },
+          {
+            "bbox": [
+              1920,
+              "584.2152",
+              1920,
+              "809.2094"
+            ],
+            "confidence": 0.2815524637699127,
+            "class_id": 2,
+            "class_name": "bicycle"
+          }
+        ]
+      },
+      {
+        "label": 1,
+        "size": 3,
+        "topology_eval": {
+          "betti_numbers": {
+            "0": 1,
+            "1": 0,
+            "2": 0
+          },
+          "is_valid": "False",
+          "confidence_score": 0.27878594398498535,
+          "topology_score": 1.0,
+          "betti_0_valid": true,
+          "betti_1_valid": true
+        },
+        "detections": [
+          {
+            "bbox": [
+              1920,
+              1080,
+              1920,
+              1080
+            ],
+            "confidence": 0.29080745577812195,
+            "class_id": 7,
+            "class_name": "awning-tricycle"
+          },
+          {
+            "bbox": [
+              1920,
+              1080,
+              1920,
+              1080
+            ],
+            "confidence": 0.2772195041179657,
+            "class_id": 0,
+            "class_name": "pedestrian"
+          },
+          {
+            "bbox": [
+              1920,
+              1080,
+              1920,
+              1080
+            ],
+            "confidence": 0.2683308720588684,
+            "class_id": 5,
+            "class_name": "truck"
+          }
+        ]
+      }
+    ],
+    "filtered_count": 7,
+    "original_count": 7,
+    "final_count": 0
+  },
+  "timing": {
+    "inference_time": 0.45772361755371094,
+    "filtering_time": 0.16725754737854004,
+    "total_time": 0.6496939659118652
+  },
+  "stats": {
+    "original_count": 7,
+    "final_count": 0,
+    "filtered_count": 7
+  }
+}

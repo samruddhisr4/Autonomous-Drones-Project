@@ -1,0 +1,690 @@
+{
+  "image_path": "data\\yolo_format\\test\\images\\0000006_00159_d_0000001.jpg",
+  "original_detections": [
+    {
+      "bbox": [
+        "1.2506837",
+        "516.28314",
+        "128.44102",
+        "664.42017"
+      ],
+      "confidence": 0.9878677129745483,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        "449.60992",
+        1360,
+        "527.884"
+      ],
+      "confidence": 0.9790613055229187,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        "0.4750576",
+        1360,
+        "50.52734"
+      ],
+      "confidence": 0.9438722729682922,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        "695.15546",
+        1360,
+        765
+      ],
+      "confidence": 0.9368526935577393,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        "358.52405",
+        1360,
+        "437.08997"
+      ],
+      "confidence": 0.91509610414505,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        "1005.2353",
+        "595.28284",
+        "1219.6492",
+        "700.1209"
+      ],
+      "confidence": 0.862973153591156,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        "207.6399",
+        1360,
+        "302.2437"
+      ],
+      "confidence": 0.807830810546875,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        0,
+        1360,
+        "17.32814"
+      ],
+      "confidence": 0.8027976751327515,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        "1046.3374",
+        "653.78424",
+        "1308.9508",
+        765
+      ],
+      "confidence": 0.7989661693572998,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        "435.33466",
+        1360,
+        "532.86865"
+      ],
+      "confidence": 0.7708415389060974,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        "437.30344",
+        1360,
+        "526.99994"
+      ],
+      "confidence": 0.6926583647727966,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        "75.67861",
+        1360,
+        "143.53935"
+      ],
+      "confidence": 0.6764466762542725,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        "1036.0347",
+        765,
+        "1296.9443",
+        765
+      ],
+      "confidence": 0.610527753829956,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        "48.557144",
+        "235.31496",
+        "186.77626",
+        "363.30634"
+      ],
+      "confidence": 0.5721893310546875,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        "1312.9082",
+        "398.86395",
+        1360,
+        "487.47675"
+      ],
+      "confidence": 0.5645564198493958,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        "340.205",
+        1360,
+        "426.70438"
+      ],
+      "confidence": 0.4696231186389923,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        "60.16111",
+        "546.24414",
+        "243.88368",
+        "679.01605"
+      ],
+      "confidence": 0.44296887516975403,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        0,
+        1360,
+        0
+      ],
+      "confidence": 0.3868138790130615,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        "1022.188",
+        "659.2285",
+        "1294.2722",
+        "718.3713"
+      ],
+      "confidence": 0.3592104911804199,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        0,
+        1360,
+        0
+      ],
+      "confidence": 0.3181067705154419,
+      "class_id": 3,
+      "class_name": "car"
+    }
+  ],
+  "final_detections": [
+    {
+      "bbox": [
+        1360,
+        "449.60992",
+        1360,
+        "527.884"
+      ],
+      "confidence": 0.9790613055229187,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        "358.52405",
+        1360,
+        "437.08997"
+      ],
+      "confidence": 0.91509610414505,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        "435.33466",
+        1360,
+        "532.86865"
+      ],
+      "confidence": 0.7708415389060974,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        "437.30344",
+        1360,
+        "526.99994"
+      ],
+      "confidence": 0.6926583647727966,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        "1312.9082",
+        "398.86395",
+        1360,
+        "487.47675"
+      ],
+      "confidence": 0.5645564198493958,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        "340.205",
+        1360,
+        "426.70438"
+      ],
+      "confidence": 0.4696231186389923,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        "0.4750576",
+        1360,
+        "50.52734"
+      ],
+      "confidence": 0.9438722729682922,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        0,
+        1360,
+        "17.32814"
+      ],
+      "confidence": 0.8027976751327515,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        "75.67861",
+        1360,
+        "143.53935"
+      ],
+      "confidence": 0.6764466762542725,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        0,
+        1360,
+        0
+      ],
+      "confidence": 0.3868138790130615,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        0,
+        1360,
+        0
+      ],
+      "confidence": 0.3181067705154419,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        "1005.2353",
+        "595.28284",
+        "1219.6492",
+        "700.1209"
+      ],
+      "confidence": 0.862973153591156,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        "1046.3374",
+        "653.78424",
+        "1308.9508",
+        765
+      ],
+      "confidence": 0.7989661693572998,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        "1036.0347",
+        765,
+        "1296.9443",
+        765
+      ],
+      "confidence": 0.610527753829956,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        "1022.188",
+        "659.2285",
+        "1294.2722",
+        "718.3713"
+      ],
+      "confidence": 0.3592104911804199,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        "695.15546",
+        1360,
+        765
+      ],
+      "confidence": 0.9368526935577393,
+      "class_id": 3,
+      "class_name": "car"
+    },
+    {
+      "bbox": [
+        1360,
+        "207.6399",
+        1360,
+        "302.2437"
+      ],
+      "confidence": 0.807830810546875,
+      "class_id": 3,
+      "class_name": "car"
+    }
+  ],
+  "filtering_info": {
+    "clusters": [
+      {
+        "label": 0,
+        "size": 2,
+        "topology_eval": {
+          "betti_numbers": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "is_valid": false,
+          "confidence_score": 0.7154182940721512,
+          "topology_score": 0.4,
+          "betti_0_valid": false,
+          "betti_1_valid": true
+        },
+        "detections": [
+          {
+            "bbox": [
+              "1.2506837",
+              "516.28314",
+              "128.44102",
+              "664.42017"
+            ],
+            "confidence": 0.9878677129745483,
+            "class_id": 3,
+            "class_name": "car"
+          },
+          {
+            "bbox": [
+              "60.16111",
+              "546.24414",
+              "243.88368",
+              "679.01605"
+            ],
+            "confidence": 0.44296887516975403,
+            "class_id": 3,
+            "class_name": "car"
+          }
+        ]
+      },
+      {
+        "label": 1,
+        "size": 6,
+        "topology_eval": {
+          "betti_numbers": {
+            "0": 2,
+            "1": 0,
+            "2": 0
+          },
+          "is_valid": "True",
+          "confidence_score": 0.7319728086392084,
+          "topology_score": 1.0,
+          "betti_0_valid": true,
+          "betti_1_valid": true
+        },
+        "detections": [
+          {
+            "bbox": [
+              1360,
+              "449.60992",
+              1360,
+              "527.884"
+            ],
+            "confidence": 0.9790613055229187,
+            "class_id": 3,
+            "class_name": "car"
+          },
+          {
+            "bbox": [
+              1360,
+              "358.52405",
+              1360,
+              "437.08997"
+            ],
+            "confidence": 0.91509610414505,
+            "class_id": 3,
+            "class_name": "car"
+          },
+          {
+            "bbox": [
+              1360,
+              "435.33466",
+              1360,
+              "532.86865"
+            ],
+            "confidence": 0.7708415389060974,
+            "class_id": 3,
+            "class_name": "car"
+          },
+          {
+            "bbox": [
+              1360,
+              "437.30344",
+              1360,
+              "526.99994"
+            ],
+            "confidence": 0.6926583647727966,
+            "class_id": 3,
+            "class_name": "car"
+          },
+          {
+            "bbox": [
+              "1312.9082",
+              "398.86395",
+              1360,
+              "487.47675"
+            ],
+            "confidence": 0.5645564198493958,
+            "class_id": 3,
+            "class_name": "car"
+          },
+          {
+            "bbox": [
+              1360,
+              "340.205",
+              1360,
+              "426.70438"
+            ],
+            "confidence": 0.4696231186389923,
+            "class_id": 3,
+            "class_name": "car"
+          }
+        ]
+      },
+      {
+        "label": 2,
+        "size": 5,
+        "topology_eval": {
+          "betti_numbers": {
+            "0": 2,
+            "1": 0,
+            "2": 0
+          },
+          "is_valid": "True",
+          "confidence_score": 0.6256074547767639,
+          "topology_score": 1.0,
+          "betti_0_valid": true,
+          "betti_1_valid": true
+        },
+        "detections": [
+          {
+            "bbox": [
+              1360,
+              "0.4750576",
+              1360,
+              "50.52734"
+            ],
+            "confidence": 0.9438722729682922,
+            "class_id": 3,
+            "class_name": "car"
+          },
+          {
+            "bbox": [
+              1360,
+              0,
+              1360,
+              "17.32814"
+            ],
+            "confidence": 0.8027976751327515,
+            "class_id": 3,
+            "class_name": "car"
+          },
+          {
+            "bbox": [
+              1360,
+              "75.67861",
+              1360,
+              "143.53935"
+            ],
+            "confidence": 0.6764466762542725,
+            "class_id": 3,
+            "class_name": "car"
+          },
+          {
+            "bbox": [
+              1360,
+              0,
+              1360,
+              0
+            ],
+            "confidence": 0.3868138790130615,
+            "class_id": 3,
+            "class_name": "car"
+          },
+          {
+            "bbox": [
+              1360,
+              0,
+              1360,
+              0
+            ],
+            "confidence": 0.3181067705154419,
+            "class_id": 3,
+            "class_name": "car"
+          }
+        ]
+      },
+      {
+        "label": 3,
+        "size": 4,
+        "topology_eval": {
+          "betti_numbers": {
+            "0": 3,
+            "1": 0,
+            "2": 0
+          },
+          "is_valid": "True",
+          "confidence_score": 0.657919391989708,
+          "topology_score": 1.0,
+          "betti_0_valid": true,
+          "betti_1_valid": true
+        },
+        "detections": [
+          {
+            "bbox": [
+              "1005.2353",
+              "595.28284",
+              "1219.6492",
+              "700.1209"
+            ],
+            "confidence": 0.862973153591156,
+            "class_id": 3,
+            "class_name": "car"
+          },
+          {
+            "bbox": [
+              "1046.3374",
+              "653.78424",
+              "1308.9508",
+              765
+            ],
+            "confidence": 0.7989661693572998,
+            "class_id": 3,
+            "class_name": "car"
+          },
+          {
+            "bbox": [
+              "1036.0347",
+              765,
+              "1296.9443",
+              765
+            ],
+            "confidence": 0.610527753829956,
+            "class_id": 3,
+            "class_name": "car"
+          },
+          {
+            "bbox": [
+              "1022.188",
+              "659.2285",
+              "1294.2722",
+              "718.3713"
+            ],
+            "confidence": 0.3592104911804199,
+            "class_id": 3,
+            "class_name": "car"
+          }
+        ]
+      }
+    ],
+    "filtered_count": 3,
+    "original_count": 20,
+    "final_count": 17
+  },
+  "timing": {
+    "inference_time": 0.36411118507385254,
+    "filtering_time": 0.0044672489166259766,
+    "total_time": 0.38291025161743164
+  },
+  "stats": {
+    "original_count": 20,
+    "final_count": 17,
+    "filtered_count": 3
+  }
+}

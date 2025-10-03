@@ -1,0 +1,23 @@
+# VisDrone dataset configuration for YOLO training
+path: C:\Users\samru\Downloads\AUTONOMOUS DRONES\data\yolo_format
+train: val/images
+val: val/images
+test: test/images
+
+# Number of classes
+nc: 10
+
+# Class names
+names:
+  [
+    "pedestrian",
+    "people",
+    "bicycle",
+    "car",
+    "van",
+    "truck",
+    "tricycle",
+    "awning-tricycle",
+    "bus",
+    "motor",
+  ]

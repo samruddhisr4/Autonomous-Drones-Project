@@ -1,0 +1,150 @@
+{
+  "image_path": "data\\yolo_format\\val\\images\\0000001_04527_d_0000008.jpg",
+  "timing": {
+    "inference_time": 0.2469472885131836,
+    "filtering_time": 0.007310152053833008,
+    "total_time": 0.27243995666503906
+  },
+  "stats": {
+    "original_count": 6,
+    "final_count": 5,
+    "filtered_count": 1
+  },
+  "detections": [
+    {
+      "bbox": [
+        1920,
+        1080,
+        1920,
+        1080
+      ],
+      "confidence": 0.5249170660972595,
+      "class_id": 0,
+      "class_name": "pedestrian"
+    },
+    {
+      "bbox": [
+        1920,
+        1080,
+        1920,
+        1080
+      ],
+      "confidence": 0.37570157647132874,
+      "class_id": 0,
+      "class_name": "pedestrian"
+    },
+    {
+      "bbox": [
+        1920,
+        1080,
+        1920,
+        1080
+      ],
+      "confidence": 0.3054817318916321,
+      "class_id": 0,
+      "class_name": "pedestrian"
+    },
+    {
+      "bbox": [
+        1920,
+        1080,
+        1920,
+        1080
+      ],
+      "confidence": 0.2807556390762329,
+      "class_id": 2,
+      "class_name": "bicycle"
+    },
+    {
+      "bbox": [
+        1920,
+        "1060.8589",
+        1920,
+        1080
+      ],
+      "confidence": 0.27826717495918274,
+      "class_id": 2,
+      "class_name": "bicycle"
+    }
+  ],
+  "filtering_info": {
+    "clusters": [
+      {
+        "label": 0,
+        "size": 5,
+        "topology_eval": {
+          "betti_numbers": {
+            "0": 1,
+            "1": 0,
+            "2": 0
+          },
+          "is_valid": "True",
+          "confidence_score": 0.3530246376991272,
+          "topology_score": 1.0,
+          "betti_0_valid": true,
+          "betti_1_valid": true
+        },
+        "detections": [
+          {
+            "bbox": [
+              1920,
+              1080,
+              1920,
+              1080
+            ],
+            "confidence": 0.5249170660972595,
+            "class_id": 0,
+            "class_name": "pedestrian"
+          },
+          {
+            "bbox": [
+              1920,
+              1080,
+              1920,
+              1080
+            ],
+            "confidence": 0.37570157647132874,
+            "class_id": 0,
+            "class_name": "pedestrian"
+          },
+          {
+            "bbox": [
+              1920,
+              1080,
+              1920,
+              1080
+            ],
+            "confidence": 0.3054817318916321,
+            "class_id": 0,
+            "class_name": "pedestrian"
+          },
+          {
+            "bbox": [
+              1920,
+              1080,
+              1920,
+              1080
+            ],
+            "confidence": 0.2807556390762329,
+            "class_id": 2,
+            "class_name": "bicycle"
+          },
+          {
+            "bbox": [
+              1920,
+              "1060.8589",
+              1920,
+              1080
+            ],
+            "confidence": 0.27826717495918274,
+            "class_id": 2,
+            "class_name": "bicycle"
+          }
+        ]
+      }
+    ],
+    "filtered_count": 1,
+    "original_count": 6,
+    "final_count": 5
+  }
+}

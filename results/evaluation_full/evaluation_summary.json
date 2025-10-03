@@ -1,0 +1,30 @@
+{
+  "dataset_info": {
+    "test_split": "test",
+    "images_processed": 100,
+    "total_available_images": 100
+  },
+  "baseline_results": {
+    "total_detections": 1051,
+    "avg_detections_per_image": 10.51,
+    "total_time": 14.631935119628906,
+    "avg_time_per_image": 0.14631935119628905,
+    "fps": 6.834366007121565
+  },
+  "filtered_results": {
+    "total_detections": 580,
+    "avg_detections_per_image": 5.8,
+    "total_time": 14.523805141448975,
+    "avg_time_per_image": 0.14523805141448975,
+    "fps": 6.885247979168595,
+    "filtering_time": 0.46481752395629883,
+    "filtering_overhead": 0.004648175239562988
+  },
+  "comparison": {
+    "detection_reduction": 471,
+    "detection_reduction_percent": 44.814462416745954,
+    "retention_rate": 0.5518553758325404,
+    "speed_impact": -0.10812997817993164,
+    "speed_impact_percent": -0.7389998472237213
+  }
+}

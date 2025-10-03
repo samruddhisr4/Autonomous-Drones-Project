@@ -1,0 +1,26 @@
+{
+  "quick_training": {
+    "model_path": "results\\quick_training\\yolov7_quick\\weights\\best.pt",
+    "evaluation_images": 50
+  },
+  "baseline_results": {
+    "total_detections": 738,
+    "avg_detections_per_image": 14.76,
+    "total_time": 8.934974193572998,
+    "fps": 5.595987063506621
+  },
+  "filtered_results": {
+    "total_detections": 531,
+    "avg_detections_per_image": 10.62,
+    "total_time": 8.933856010437012,
+    "fps": 5.596687470851031,
+    "filtering_time": 0.25949883460998535,
+    "filtering_overhead": 0.005189976692199707
+  },
+  "comparison": {
+    "detection_reduction": 207,
+    "detection_reduction_percent": 28.04878048780488,
+    "retention_rate": 0.7195121951219512,
+    "speed_impact_percent": -0.012514676727221513
+  }
+}

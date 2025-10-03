@@ -1,0 +1,106 @@
+{
+  "image_path": "data\\yolo_format\\val\\images\\0000001_03999_d_0000007.jpg",
+  "timing": {
+    "inference_time": 0.19557666778564453,
+    "filtering_time": 0.0033791065216064453,
+    "total_time": 0.21574878692626953
+  },
+  "stats": {
+    "original_count": 4,
+    "final_count": 3,
+    "filtered_count": 1
+  },
+  "detections": [
+    {
+      "bbox": [
+        1920,
+        1080,
+        1920,
+        1080
+      ],
+      "confidence": 0.4128676950931549,
+      "class_id": 0,
+      "class_name": "pedestrian"
+    },
+    {
+      "bbox": [
+        1920,
+        1080,
+        1920,
+        1080
+      ],
+      "confidence": 0.29712969064712524,
+      "class_id": 0,
+      "class_name": "pedestrian"
+    },
+    {
+      "bbox": [
+        1920,
+        1080,
+        1920,
+        1080
+      ],
+      "confidence": 0.25346997380256653,
+      "class_id": 6,
+      "class_name": "tricycle"
+    }
+  ],
+  "filtering_info": {
+    "clusters": [
+      {
+        "label": 0,
+        "size": 3,
+        "topology_eval": {
+          "betti_numbers": {
+            "0": 1,
+            "1": 0,
+            "2": 0
+          },
+          "is_valid": "True",
+          "confidence_score": 0.3211557865142822,
+          "topology_score": 1.0,
+          "betti_0_valid": true,
+          "betti_1_valid": true
+        },
+        "detections": [
+          {
+            "bbox": [
+              1920,
+              1080,
+              1920,
+              1080
+            ],
+            "confidence": 0.4128676950931549,
+            "class_id": 0,
+            "class_name": "pedestrian"
+          },
+          {
+            "bbox": [
+              1920,
+              1080,
+              1920,
+              1080
+            ],
+            "confidence": 0.29712969064712524,
+            "class_id": 0,
+            "class_name": "pedestrian"
+          },
+          {
+            "bbox": [
+              1920,
+              1080,
+              1920,
+              1080
+            ],
+            "confidence": 0.25346997380256653,
+            "class_id": 6,
+            "class_name": "tricycle"
+          }
+        ]
+      }
+    ],
+    "filtered_count": 1,
+    "original_count": 4,
+    "final_count": 3
+  }
+}
